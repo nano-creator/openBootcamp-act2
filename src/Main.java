@@ -59,32 +59,3 @@ public class Main {
         }
     }
 }
-
-/*
-        int list[] = new int[]{3,1,8,9,2};
-        int temp;
-        for(int i = 1; i<list.length;i++){
-            for (int j = 0; j<list.length-1; j++){
-                if (list[j] > list[j+1]){
-                    temp = list[j];
-                    list[j] = list[j+1];
-                    list[j+1] = temp;
-                }
-            }
-        }
-        System.out.println(Arrays.toString(list));
- * for (int i = 0; i < list.length; i++) {
-            System.out.println("enter car in " + i);
-            list[i] = get.nextLine();
-
-        }
-        System.out.println(Arrays.deepToString(list));
-                int lon = list.length-1;
-        
-        for(int i=0; i<=lon;i++){
-            System.out.printf("ingresa un numero en el indice %d: ", i);
-            list[i] = get.nextInt();
-        }
-        System.out.println(Arrays.toString(list));
-*/
-//System.out.println(Arrays.toString(list));
